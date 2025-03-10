@@ -1,7 +1,7 @@
 template-file-path: autoscaling-template.yaml
 parameters:
   PrivateSubnet1CIDR: 10.0.3.0/24
-  KeyName: Wk2Lab-Key
+  KeyName: JuliusKeyPair
   PublicSubnet2CIDR: 10.0.2.0/24
   SSHLocation: 0.0.0.0/0
   VpcCIDR: 10.0.0.0/16
